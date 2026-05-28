@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>基础数据管理</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>俊朗能碳管理平台</h1>
+    <nav class="nav-links">
+      <a href="index.html">首页</a>
+      <a href="energy_overview.html">智慧能源</a>
+      <a href="carbon_overview.html">智慧双碳</a>
+      <a href="decision.html">智慧决策</a>
+      <a href="datamgmt.html" class="active">基础数据</a>
+    </nav>
+  </header>
+  <main class="main">
+    <h2>基础数据管理</h2>
+    <section class="dashboard-grid">
+      <div class="card">
+        <h3>数据采集与导入</h3>
+        <p>支持通过智能网关、协议转换和 CSV 上传接入能耗、生产、BOM 和碳因子数据。</p>
+        <a href="data_import.html" style="color:#6bb9f0;">进入</a>
+      </div>
+      <div class="card">
+        <h3>数据质量与接口管理</h3>
+        <p>监控采集频率、在线率、完整率及各系统接口状态。</p>
+        <a href="interfaces.html" style="color:#6bb9f0;">进入</a>
+      </div>
+      <div class="card">
+        <h3>组织与边界</h3>
+        <p>维护集团、园区、工厂、车间等组织信息及核算边界。</p>
+        <a href="org_boundary.html" style="color:#6bb9f0;">进入</a>
+      </div>
+      <div class="card">
+        <h3>设备资产</h3>
+        <p>管理设备台账、计量点绑定、采集频率和状态。</p>
+        <a href="asset.html" style="color:#6bb9f0;">进入</a>
+      </div>
+      <div class="card">
+        <h3>因子库</h3>
+        <p>管理能源、材料、运输、工序和区域电网排放因子。</p>
+        <a href="factor.html" style="color:#6bb9f0;">进入</a>
+      </div>
+      <div class="card">
+        <h3>系统设置</h3>
+        <p>配置用户权限、审批流、告警阈值、控制权限及审计日志。</p>
+        <a href="settings.html" style="color:#6bb9f0;">进入</a>
+      </div>
+    </section>
+    <div class="table-container" style="margin-top: 20px;">
+      <table>
+        <thead>
+          <tr>
+            <th>数据源</th>
+            <th>接入方式</th>
+            <th>采集频率</th>
+            <th>在线率</th>
+            <th>数据质量</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>智能电表</td>
+            <td>Modbus 网关</td>
+            <td>1 分钟</td>
+            <td>98%</td>
+            <td>良好</td>
+          </tr>
+          <tr>
+            <td>MES 系统</td>
+            <td>API 接口</td>
+            <td>15 分钟</td>
+            <td>100%</td>
+            <td>优</td>
+          </tr>
+          <tr>
+            <td>手工填报</td>
+            <td>CSV 上传</td>
+            <td>月度</td>
+            <td>—</td>
+            <td>待审核</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+  <footer class="footer">
+    © 2026 俊朗能碳管理平台
+  </footer>
+</body>
+</html>

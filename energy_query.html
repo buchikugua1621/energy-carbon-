@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>智慧能源 - 能耗查询</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>俊朗能碳管理平台</h1>
+    <nav class="nav-links">
+      <a href="index.html">首页</a>
+      <a href="energy_overview.html" class="active">智慧能源</a>
+      <a href="carbon_overview.html">智慧双碳</a>
+      <a href="decision.html">智慧决策</a>
+      <a href="datamgmt.html">基础数据</a>
+    </nav>
+  </header>
+  <div class="container">
+    <aside class="side-nav">
+      <h2>智慧能源</h2>
+      <ul>
+        <li><a href="energy_overview.html">能耗总览</a></li>
+        <li><a href="energy_query.html" class="active">能耗查询</a></li>
+        <li><a href="energy_calculation.html">能耗量和强度计算</a></li>
+        <li><a href="energy_analysis.html">能耗分析与策略推荐</a></li>
+        <li><a href="energy_benchmark.html">能效对标</a></li>
+        <li><a href="energy_flow.html">能流分析</a></li>
+        <li><a href="energy_optimization.html">能效平衡与优化</a></li>
+      </ul>
+    </aside>
+    <main class="main">
+      <h2>能耗查询</h2>
+      <div class="card">
+        <h3>查询条件</h3>
+        <p>
+          <label>开始时间：<input type="date" /></label>
+          <label>结束时间：<input type="date" /></label>
+          <label>能源种类：
+            <select>
+              <option>全部能源</option>
+              <option>电力</option>
+              <option>天然气</option>
+              <option>蒸汽</option>
+            </select>
+          </label>
+        </p>
+      </div>
+      <div class="table-container" style="margin-top: 20px;">
+        <table>
+          <thead>
+            <tr>
+              <th>时间</th>
+              <th>能源类型</th>
+              <th>耗量</th>
+              <th>单位</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2026-05-28 10:00</td>
+              <td>电力</td>
+              <td>45.6</td>
+              <td>kWh</td>
+            </tr>
+            <tr>
+              <td>2026-05-28 11:00</td>
+              <td>电力</td>
+              <td>47.2</td>
+              <td>kWh</td>
+            </tr>
+            <tr>
+              <td>2026-05-28 12:00</td>
+              <td>天然气</td>
+              <td>15.3</td>
+              <td>Nm³</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+  </div>
+  <footer class="footer">
+    © 2026 俊朗能碳管理平台
+  </footer>
+</body>
+</html>

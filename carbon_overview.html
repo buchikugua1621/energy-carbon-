@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>智慧双碳 - 产品碳足迹核算</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>俊朗能碳管理平台</h1>
+    <nav class="nav-links">
+      <a href="index.html">首页</a>
+      <a href="energy_overview.html">智慧能源</a>
+      <a href="carbon_overview.html" class="active">智慧双碳</a>
+      <a href="decision.html">智慧决策</a>
+      <a href="datamgmt.html">基础数据</a>
+    </nav>
+  </header>
+  <div class="container">
+    <aside class="side-nav">
+      <h2>智慧双碳</h2>
+      <ul>
+        <li><a href="carbon_overview.html">双碳总览</a></li>
+        <li><a href="carbon_budget.html">用能与碳排放预算管理</a></li>
+        <li><a href="carbon_accounting.html">碳排放核算</a></li>
+        <li><a href="carbon_footprint.html" class="active">产品碳足迹核算</a></li>
+        <li><a href="supply_chain.html">供应链碳管理</a></li>
+        <li><a href="carbon_verification.html">碳核查支撑</a></li>
+        <li><a href="carbon_assets.html">碳资产管理</a></li>
+      </ul>
+    </aside>
+    <main class="main">
+      <h2>产品碳足迹核算</h2>
+      <div class="card">
+        <h3>核算流程</h3>
+        <p>平台按产品生命周期从原材料获取、生产制造、运输、使用到回收处理等环节，采集数据计算产品碳足迹。结合绿电绿证信息，可生成产品碳足迹报告。</p>
+      </div>
+      <div class="table-container" style="margin-top: 20px;">
+        <table>
+          <thead>
+            <tr>
+              <th>环节</th>
+              <th>活动数据</th>
+              <th>排放因子</th>
+              <th>碳排量 (kg CO₂e)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>原材料</td>
+              <td>100 kg 铝</td>
+              <td>8.24 kg CO₂e/kg</td>
+              <td>824</td>
+            </tr>
+            <tr>
+              <td>生产制造</td>
+              <td>120 kWh 电力</td>
+              <td>0.997 kg CO₂e/kWh</td>
+              <td>119.6</td>
+            </tr>
+            <tr>
+              <td>运输</td>
+              <td>200 km 运输</td>
+              <td>0.083 kg CO₂e/km</td>
+              <td>16.6</td>
+            </tr>
+            <tr>
+              <td>使用阶段</td>
+              <td>1000 h 使用</td>
+              <td>—</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td>回收处理</td>
+              <td>90% 回收率</td>
+              <td>-0.50 kg CO₂e/kg</td>
+              <td>-45.0</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="3">总计</td>
+              <td>915.2</td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </main>
+  </div>
+  <footer class="footer">
+    © 2026 俊朗能碳管理平台
+  </footer>
+</body>
+</html>

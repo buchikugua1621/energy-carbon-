@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>基础数据 - 系统设置</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>俊朗能碳管理平台</h1>
+    <nav class="nav-links">
+      <a href="index.html">首页</a>
+      <a href="energy_overview.html">智慧能源</a>
+      <a href="carbon_overview.html">智慧双碳</a>
+      <a href="decision.html">智慧决策</a>
+      <a href="datamgmt.html" class="active">基础数据</a>
+    </nav>
+  </header>
+  <div class="container">
+    <aside class="side-nav">
+      <h2>基础数据</h2>
+      <ul>
+        <li><a href="datamgmt.html">基础数据总览</a></li>
+        <li><a href="data_import.html">数据采集与导入</a></li>
+        <li><a href="org_boundary.html">组织与边界</a></li>
+        <li><a href="asset.html">设备资产</a></li>
+        <li><a href="factor.html">因子库</a></li>
+        <li><a href="interfaces.html">接口配置</a></li>
+        <li><a href="settings.html" class="active">系统设置</a></li>
+      </ul>
+    </aside>
+    <main class="main">
+      <h2>系统设置</h2>
+      <div class="card">
+        <h3>配置项说明</h3>
+        <p>本页面用于配置用户角色权限、控制审批流程、告警阈值及审计日志策略，保证系统的安全性和可追溯性。</p>
+      </div>
+      <div class="table-container" style="margin-top: 20px;">
+        <table>
+          <thead>
+            <tr>
+              <th>配置项</th>
+              <th>状态</th>
+              <th>说明</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>角色权限</td>
+              <td>已配置</td>
+              <td>管理员 / 能源经理 / 碳核算员 / 运维员</td>
+            </tr>
+            <tr>
+              <td>控制审批</td>
+              <td>已启用</td>
+              <td>关键设备启停需双人确认</td>
+            </tr>
+            <tr>
+              <td>告警阈值</td>
+              <td>已配置</td>
+              <td>超出预算 90% 提醒，超出 100% 告警</td>
+            </tr>
+            <tr>
+              <td>审计日志</td>
+              <td>已启用</td>
+              <td>记录所有关键操作留痕</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+  </div>
+  <footer class="footer">
+    © 2026 俊朗能碳管理平台
+  </footer>
+</body>
+</html>

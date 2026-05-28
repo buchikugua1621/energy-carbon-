@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>基础数据 - 因子库</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>俊朗能碳管理平台</h1>
+    <nav class="nav-links">
+      <a href="index.html">首页</a>
+      <a href="energy_overview.html">智慧能源</a>
+      <a href="carbon_overview.html">智慧双碳</a>
+      <a href="decision.html">智慧决策</a>
+      <a href="datamgmt.html" class="active">基础数据</a>
+    </nav>
+  </header>
+  <div class="container">
+    <aside class="side-nav">
+      <h2>基础数据</h2>
+      <ul>
+        <li><a href="datamgmt.html">基础数据总览</a></li>
+        <li><a href="data_import.html">数据采集与导入</a></li>
+        <li><a href="org_boundary.html">组织与边界</a></li>
+        <li><a href="asset.html">设备资产</a></li>
+        <li><a href="factor.html" class="active">因子库</a></li>
+        <li><a href="interfaces.html">接口配置</a></li>
+        <li><a href="settings.html">系统设置</a></li>
+      </ul>
+    </aside>
+    <main class="main">
+      <h2>因子库</h2>
+      <div class="card">
+        <h3>功能说明</h3>
+        <p>维护能源、材料、运输、工序和区域电网的折算因子和排放因子，为能耗和碳排放计算提供依据。</p>
+      </div>
+      <div class="table-container" style="margin-top: 20px;">
+        <table>
+          <thead>
+            <tr>
+              <th>因子</th>
+              <th>版本</th>
+              <th>来源</th>
+              <th>单位</th>
+              <th>值</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>外购电力排放因子</td>
+              <td>2025</td>
+              <td>区域电网</td>
+              <td>kg CO₂e/kWh</td>
+              <td>0.997</td>
+            </tr>
+            <tr>
+              <td>天然气排放因子</td>
+              <td>2025</td>
+              <td>国家标准</td>
+              <td>kg CO₂e/Nm³</td>
+              <td>2.160</td>
+            </tr>
+            <tr>
+              <td>柴油排放因子</td>
+              <td>2025</td>
+              <td>燃料因子</td>
+              <td>kg CO₂e/kg</td>
+              <td>3.206</td>
+            </tr>
+            <tr>
+              <td>蒸汽折标系数</td>
+              <td>2025</td>
+              <td>国家标准</td>
+              <td>tce/GJ</td>
+              <td>0.040</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+  </div>
+  <footer class="footer">
+    © 2026 俊朗能碳管理平台
+  </footer>
+</body>
+</html>
